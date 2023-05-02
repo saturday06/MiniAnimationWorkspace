@@ -1,0 +1,16 @@
+{
+    "name": "Vrm1MaterialRecorder",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2a6531d3b47036f418e9115c8a1ff0ca"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
