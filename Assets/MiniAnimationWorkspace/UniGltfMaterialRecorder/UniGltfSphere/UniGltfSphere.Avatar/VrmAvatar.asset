@@ -127,7 +127,7 @@ Avatar:
           m_AxesId: -1
         - m_ParentId: 0
           m_AxesId: -1
-        m_ID: 000000005bf9f416d7f0ecc0981bdc594973b493d8fcb430f09b206bd088586db3b557970700250b2d3a74883286c6def532ed53db93d25e36e77ca6b5ef17bd0430d4d4185877665073a27df95898405a961a0704a3726c12e7622d5cfe73244f9e2c4c9930eee59e47d568ac081c0f643d2af124ad9a3c44c9ef754f81ef8edee8a62aaa72867fed99be88014ba0a084cd8dbf08050b48b1dac81ea7f86647866cf6ceec45c4129f41b7a91e183c67d1b2bebb6329a9282ec798ad12fefadbf51ad12241bc230fae041c5071c3f521fc8d3f9679422365f6bd9c4ab7471c561574531b
+        m_ID: 000000005bf9f416d7f0ecc0981bdc594973b493d8fcb430f09b206bd088586db3b557970700250b2d3a74883286c6def532ed53db93d25e36e77ca6b5ef17bd0430d4d4185877665073a27df95898405a961a0704a3726c12e7622d5cfe73244f9e2c4c9930eee59e47d568ac081c0f643d2af124ad9a3c44c9ef754f81ef8edee8a62aaa72867fed99be88014ba0a084cd8dbf08050b48b1dac81ea7f86647866cf6ceec45c4129f41b7a91e183c67d1b2bebb6329a9282ec798ad12fefadbf51ad12241bc230fae041c5071c3f521fc8d3f9679422365f6bd9c4a500eecec1574531b
         m_AxesArray: []
     m_AvatarSkeletonPose:
       data:
@@ -477,7 +477,7 @@ Avatar:
         - t: {x: 0, y: 0, z: -0}
           q: {x: -0, y: -0, z: 0, w: 1}
           s: {x: 1, y: 1, z: 1}
-    m_SkeletonNameIDArray: 000000005bf9f4162fa9e37ecfeecf92b7b344fb53d611209cf6f3a76aedb6bb09d0b941fe99b092e1b63aad03fb45ca32957d11998854645ccb58f939038954462b52ee124c660724c1d6385efe70d80017817110decc13736b281e21aa64d8e6cd04813e96067d8cf3bad3de4e28129da4bf68828b355760c64a3051a872ebfab55b9e3ff657035a3e86ae25165d14717169fd47fcd9c23dc37f22632a8e8b73e3c3e9105627e442976b2285f00b7b5dab0987efceb529bd7327e8a098f39542d58cf2368edd3047db3114c3a5fc6f21e8830855b3d2ca24e63eeeb7471c561574531b
+    m_SkeletonNameIDArray: 000000005bf9f4162fa9e37ecfeecf92b7b344fb53d611209cf6f3a76aedb6bb09d0b941fe99b092e1b63aad03fb45ca32957d11998854645ccb58f939038954462b52ee124c660724c1d6385efe70d80017817110decc13736b281e21aa64d8e6cd04813e96067d8cf3bad3de4e28129da4bf68828b355760c64a3051a872ebfab55b9e3ff657035a3e86ae25165d14717169fd47fcd9c23dc37f22632a8e8b73e3c3e9105627e442976b2285f00b7b5dab0987efceb529bd7327e8a098f39542d58cf2368edd3047db3114c3a5fc6f21e8830855b3d2ca24e63eee500eecec1574531b
     m_Human:
       data:
         serializedVersion: 2
@@ -1250,6 +1250,7 @@ Avatar:
   m_TOS:
     2694859521: root/hips/spine/chest/shoulder.R/upper_arm.R/lower_arm.R/hand.R/index_proximal.R
     2398060879: root/hips/spine/chest/shoulder.R/upper_arm.R/lower_arm.R/hand.R
+    3974893136: "ICO\u7403"
     186974215: root/hips/spine/chest/shoulder.L
     1016769828: root/hips/spine/chest/shoulder.R/upper_arm.R
     2847359391: root/hips/spine/chest/shoulder.R/upper_arm.R/lower_arm.R/hand.R/ring_proximal.R/ring_intermediate.R
@@ -1297,7 +1298,6 @@ Avatar:
     584129269: root/hips/upper_leg.L/lower_leg.L
     254000193: root/hips/upper_leg.L/lower_leg.L/foot.L
     1507597208: root/hips/spine
-    1444693943: "\u7403"
     1277992527: root/hips/spine/chest/shoulder.L/upper_arm.L/lower_arm.L/hand.L/ring_proximal.L/ring_intermediate.L/ring_distal.L
     1731991582: root/hips/spine/chest/shoulder.R/upper_arm.R/lower_arm.R/hand.R/ring_proximal.R/ring_intermediate.R/ring_distal.R
     3213741444: root/hips/spine/chest/shoulder.R/upper_arm.R/lower_arm.R/hand.R/index_proximal.R/index_intermediate.R
@@ -2008,7 +2008,7 @@ Avatar:
       m_Position: {x: 0, y: -0.08499998, z: 0.17333332}
       m_Rotation: {x: -0, y: -0, z: -0, w: 1}
       m_Scale: {x: 1, y: 1, z: 1}
-    - m_Name: "\u7403"
+    - m_Name: "ICO\u7403"
       m_ParentName: 
       m_Position: {x: 0, y: 0, z: -0}
       m_Rotation: {x: -0, y: -0, z: 0, w: 1}
