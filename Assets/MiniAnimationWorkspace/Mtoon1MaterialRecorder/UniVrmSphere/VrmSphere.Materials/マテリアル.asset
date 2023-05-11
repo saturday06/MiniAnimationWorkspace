@@ -82,7 +82,7 @@ Material:
     - _OutlineCullMode: 1
     - _OutlineLightingMix: 0
     - _OutlineScaledMaxDistance: 1
-    - _OutlineWidth: 1
+    - _OutlineWidth: 3.7500002
     - _OutlineWidthMode: 1
     - _ReceiveShadowRate: 1
     - _RimFresnelPower: 1

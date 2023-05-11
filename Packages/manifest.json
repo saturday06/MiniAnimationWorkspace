@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "com.needle.compilation-visualizer": "1.8.3",
+    "com.unity.coding": "0.1.0-preview.24",
     "com.unity.ide.rider": "3.0.21",
     "com.unity.ide.vscode": "1.2.5",
+    "com.unity.memoryprofiler": "1.0.0",
     "com.unity.recorder": "4.0.0",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.4",
@@ -42,5 +45,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM (Compilation Visualizer)",
+      "url": "https://package.openupm.com/",
+      "scopes": [
+        "com.needle.compilation-visualizer"
+      ]
+    }
+  ]
 }
