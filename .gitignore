@@ -9,6 +9,7 @@
 /*.csproj
 /*.sln
 .DS_Store
+/mono_crash.*.json
 # lilToon 1.3.7
 /Assets/lilToon/Editor/CurrentRP.txt
 /Assets/lilToon/Editor/CurrentRP.txt.meta
