@@ -88,7 +88,9 @@ namespace AltTester.AltTesterUnitySDK.Editor
         private bool foldOutTestRunSettings = true;
         private bool foldOutBuildSettings = true;
         private bool foldOutIosSettings = true;
+#pragma warning disable CS0414
         private bool foldOutPortForwarding = true;
+#pragma warning restore CS0414
         UnityEngine.Rect popUpPosition;
         UnityEngine.Rect popUpContentPosition;
         float splitNormalizedPosition = 0.33f;

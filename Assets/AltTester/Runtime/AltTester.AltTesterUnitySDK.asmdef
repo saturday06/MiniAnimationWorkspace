@@ -20,9 +20,7 @@
         "NLog.dll"
     ],
     "autoReferenced": true,
-    "defineConstraints": [
-        "UNITY_TESTS_FRAMEWORK"
-    ],
+    "defineConstraints": [],
     "versionDefines": [
         {
             "name": "com.unity.inputsystem",

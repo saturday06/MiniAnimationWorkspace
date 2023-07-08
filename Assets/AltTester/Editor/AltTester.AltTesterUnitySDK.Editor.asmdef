@@ -19,9 +19,7 @@
         "Newtonsoft.Json.dll"
     ],
     "autoReferenced": true,
-    "defineConstraints": [
-        "UNITY_TESTS_FRAMEWORK"
-    ],
+    "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
 }
