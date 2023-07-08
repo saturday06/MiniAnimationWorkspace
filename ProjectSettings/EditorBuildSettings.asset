@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MiniAnimationWorkspace/Computing/Computing.unity
     guid: fb2bc026f1c15477e9d7d3d7bde0cde9
+  - enabled: 1
+    path: Assets/MiniAnimationWorkspace/Models/ModelsScene.unity
+    guid: 469c35eb9b8ca428aac50a76e63be4cc
+  - enabled: 1
+    path: Assets/MiniAnimationWorkspace/Mtoon1MaterialRecorder/Mtoon1MaterialRecorderScene.unity
+    guid: 4bb557918a8a164449b1ea184177e5f4
+  - enabled: 1
+    path: Assets/MiniAnimationWorkspace/UniGltfMaterialRecorder/UniGltfMaterialRecorderScene.unity
+    guid: 9f911cbe5fa6b9f42bda8eb3657c6dfc
+  - enabled: 1
+    path: Assets/MiniAnimationWorkspace/Models/Mtoon0Parameters/Mtoon0ParametersScene.unity
+    guid: ac323c2f4f3f649598fe22cbef6bdaa6
   m_configObjects: {}
