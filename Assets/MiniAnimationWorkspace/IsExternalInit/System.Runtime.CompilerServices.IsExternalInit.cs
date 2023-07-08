@@ -1,7 +1,7 @@
 namespace System.Runtime.CompilerServices
 {
     /// <summary>
-    /// C# 9.0のレコード方を使う場合に必要になるクラス。
+    /// C# 9.0のレコード型を使う場合に必要になるクラス。
     /// </summary>
     /// <seealso href="https://docs.unity3d.com/2021.3/Documentation/Manual/CSharpCompiler.html">Unity Documentation</seealso>
     /// <seealso href="https://learn.microsoft.com/en-us/dotnet/api/system.runtime.compilerservices.isexternalinit?view=net-6.0">Microsoft Documentation</seealso>
