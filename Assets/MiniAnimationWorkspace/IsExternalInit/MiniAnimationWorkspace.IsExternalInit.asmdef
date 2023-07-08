@@ -1,15 +1,13 @@
 {
-    "name": "Vrm1MaterialRecorder",
+    "name": "MiniAnimationWorkspace.IsExternalInit",
     "rootNamespace": "",
-    "references": [
-        "GUID:2a6531d3b47036f418e9115c8a1ff0ca"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
-    "autoReferenced": true,
+    "autoReferenced": false,
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
