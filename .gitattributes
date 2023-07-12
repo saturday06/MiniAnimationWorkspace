@@ -1,5 +1,5 @@
 * -text
-csc.rsp eol=lf
+csc.rsp text eol=lf
 *.cs text eol=crlf
 *.asmdef text eol=crlf
 *.md text eol=lf
