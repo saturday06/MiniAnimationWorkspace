@@ -333,16 +333,18 @@ namespace UniVRM10.VRM10Viewer
             Motion = await VrmAnimation.LoadVrmAnimationFromPathAsync(vrmaPath);
             */
 
+            /*
             var watcher = new FileSystemWatcher();
-            watcher.Path = vrmaPath;
+            watcher.Path = Path.GetDirectoryName(vrmaPath);
             watcher.NotifyFilter = NotifyFilters.LastWrite;
             watcher.Filter = "*.vrma";
             var sc = SynchronizationContext.Current;
-            watcher.Changed += (_, _) =>
+            watcher.Changed += (x, y) =>
             {
                 sc.Post(x =>
                 {
-                    VrmAnimation.LoadVrmAnimationFromPathAsync(vrmaPath).ContinueWith(task =>
+                    UnityEngine.Debug.LogFormat("CHANGED! {0}", y.FullPath);
+                    VrmAnimation.LoadVrmAnimationFromPathAsync(y.FullPath).ContinueWith(task =>
                     {
                         Motion = task.Result;
                     }, TaskContinuationOptions.ExecuteSynchronously);
@@ -351,6 +353,7 @@ namespace UniVRM10.VRM10Viewer
 
             // Begin watching.
             watcher.EnableRaisingEvents = true;
+            */
         }
 
         private async Task OnApplicationFocus(bool hasFocus)
