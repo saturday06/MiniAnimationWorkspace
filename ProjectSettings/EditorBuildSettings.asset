@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Samples/VRM-1.0/0.112.0/VRM10Viewer/VRM10Viewer.unity
+    guid: c91fa5ff7b6696646a8b16d9bf88a5c2
+  - enabled: 1
     path: Assets/MiniAnimationWorkspace/Computing/Computing.unity
     guid: fb2bc026f1c15477e9d7d3d7bde0cde9
   - enabled: 1

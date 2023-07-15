@@ -1,0 +1,1 @@
+https://github.com/pixiv/ChatVRM/blob/d1412db27cddcb09a03a00c0a52dc89c0f01e249/public/idle_loop.vrma
