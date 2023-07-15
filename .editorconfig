@@ -15,3 +15,6 @@ trim_trailing_whitespace = false
 
 [*.cs]
 end_of_line = crlf
+
+[/Assets/MiniAnimationWorkspace/**.cs]
+formatters = uncrustify, generic
