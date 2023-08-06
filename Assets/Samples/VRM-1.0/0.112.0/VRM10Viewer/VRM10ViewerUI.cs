@@ -321,39 +321,6 @@ namespace UniVRM10.VRM10Viewer
             }
 
             m_texts.Start();
-
-            var vrmaPath = Path.Combine(Application.streamingAssetsPath, "MiniAnimationWorkspace", "VrmaSync",
-                "idle_loop.vrma");
-            // Motion = await VrmAnimation.LoadVrmAnimationFromPathAsync(vrmaPath);
-
-            /*
-            var debugModelPath = Path.Combine(Application.streamingAssetsPath, "MiniAnimationWorkspace", "VrmaSync",
-                "debug.vrm");
-            await LoadModel(debugModelPath);
-            Motion = await VrmAnimation.LoadVrmAnimationFromPathAsync(vrmaPath);
-            */
-
-            /*
-            var watcher = new FileSystemWatcher();
-            watcher.Path = Path.GetDirectoryName(vrmaPath);
-            watcher.NotifyFilter = NotifyFilters.LastWrite;
-            watcher.Filter = "*.vrma";
-            var sc = SynchronizationContext.Current;
-            watcher.Changed += (x, y) =>
-            {
-                sc.Post(x =>
-                {
-                    UnityEngine.Debug.LogFormat("CHANGED! {0}", y.FullPath);
-                    VrmAnimation.LoadVrmAnimationFromPathAsync(y.FullPath).ContinueWith(task =>
-                    {
-                        Motion = task.Result;
-                    }, TaskContinuationOptions.ExecuteSynchronously);
-                }, null);
-            };
-
-            // Begin watching.
-            watcher.EnableRaisingEvents = true;
-            */
         }
 
         private async Task OnApplicationFocus(bool hasFocus)
@@ -363,7 +330,7 @@ namespace UniVRM10.VRM10Viewer
                 return;
             }
             var vrmaPath = Path.Combine(Application.streamingAssetsPath, "MiniAnimationWorkspace", "VrmaSync",
-                "idle_loop.vrma");
+                "debug.vrma");
             Motion = await VrmAnimation.LoadVrmAnimationFromPathAsync(vrmaPath);
         }
 
@@ -440,7 +407,7 @@ namespace UniVRM10.VRM10Viewer
                 return;
             }
 
-            LoadModel(path);
+            _ =LoadModel(path);
         }
 
         async void OnOpenMotionClicked()
