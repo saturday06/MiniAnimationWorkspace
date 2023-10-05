@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "com.needle.compilation-visualizer": "1.8.3",
+    "com.needle.compilation-visualizer": "1.8.4",
     "com.unity.coding": "0.1.0-preview.25",
     "com.unity.editorcoroutines": "1.0.0",
-    "com.unity.ide.rider": "3.0.24",
+    "com.unity.ide.rider": "3.0.25",
     "com.unity.ide.vscode": "1.2.5",
-    "com.unity.inputsystem": "1.6.3",
+    "com.unity.inputsystem": "1.7.0",
     "com.unity.memoryprofiler": "1.0.0",
     "com.unity.nuget.newtonsoft-json": "3.2.1",
     "com.unity.recorder": "4.0.1",
@@ -14,7 +14,7 @@
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.5",
     "com.unity.ugui": "1.0.0",
-    "com.unity.visualscripting": "1.8.0",
+    "com.unity.visualscripting": "1.9.1",
     "com.vrmc.gltf": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.113.0",
     "com.vrmc.univrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.113.0",
     "com.vrmc.vrm": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.113.0",
